@@ -71,14 +71,17 @@ div {
 }
 
 .image-link {
+    display: flex;
+    flex-flow: nowrap;
     text-align: center;
     margin-bottom: 1.5rem;
+    justify-content: center;
 }
 
 img {
     border-radius: 1rem;
-    width: 500px;
-    image-resolution: 300dpi;
+    width: 450px;
+    image-resolution: 270dpi;
 }
 
 p {
