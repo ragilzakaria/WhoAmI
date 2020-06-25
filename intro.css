@@ -72,17 +72,19 @@ div {
 }
 
 .image-link {
+    
     display: flex;
     flex-flow: nowrap;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin: 1rem 1rem 1rem 1rem;
     justify-content: center;
 }
 
 img {
     border-radius: 1rem;
-    width: 450px;
-    image-resolution: 270dpi;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
 }
 
 p {
