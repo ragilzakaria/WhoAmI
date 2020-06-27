@@ -46,6 +46,9 @@ nav a   {
     padding: 0.5rem 3rem;
 }
 
+nav a:hover {
+    color: #f2f2f2;
+
 body {
     margin: 1rem;
     background-color: #404040;
